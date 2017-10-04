@@ -6,5 +6,4 @@ ship = SpaceShip.new('Millenium Falcon', 'gray')
 ship.print_details
 
 ship.paint('rainbow')
-
 ship.print_details

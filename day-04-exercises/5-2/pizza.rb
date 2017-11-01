@@ -2,8 +2,8 @@ class Pizza
   BAKING_TIME = 12 # minutes
 
   def initialize
-    @baking_time  = 0
-    @oven         = nil
+    @baking_time = 0
+    @oven
   end
 
   def increase_baking_time

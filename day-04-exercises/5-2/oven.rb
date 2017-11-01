@@ -30,7 +30,7 @@ class Oven
   def remove_done_pizzas
     @pizzas.each_with_index do |pizza, index|
       if pizza.done?
-        puts "This pizza is done baking. Enjoy your meal" if pizza.done?
+        puts "This pizza is done baking. Enjoy your meal"
         @pizzas.delete_at(index)
       end
     end

@@ -1,7 +1,7 @@
 require_relative 'cook'
 
 first_cook = Cook.new('Primus Cook')
-first_cook.remove_default_secret
+
 first_cook.print_details
 
 second_cook = Cook.new('Secundo Cook')

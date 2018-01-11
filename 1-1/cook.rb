@@ -7,7 +7,7 @@ class Cook
   end
 
   def print_details
-    puts @name
+    puts name
   end
 end
 
